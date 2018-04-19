@@ -39,6 +39,10 @@
     word-spacing: 10%;
 }
 
+.about:active, .portfolio:active, .contact:active {
+    color: green;
+}
+
 /* could use an .about:hover, .portfolio:hover{
 
     opacity:.5;
@@ -304,9 +308,9 @@
     padding: 17px 0px 17px 0px;
 }
 
-.copyright1:visited {
+/* .copyright1:visited {
         color: purple;
-      }
+      } */
 
 
 .copyright2{
