@@ -304,11 +304,6 @@
 .img110:hover, .img111:hover, .img112:hover, .img113:hover, .img114:hover{
     -webkit-filter: brightness(50%);
     /*-webkit-transform: scale(1); to zoom in on text for the future */
-    -webkit-transform: rotate(360deg);
-	-moz-transform: rotate(360deg);
-	-o-transform: rotate(360deg);
-	-ms-transform: rotate(360deg);
-	transform: rotate(360deg);
   }
 
   .copyright1{
