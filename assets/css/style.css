@@ -1,40 +1,42 @@
 .Upperbox{
-	background-color: white;
-	width:100%;
-	height:85px;
-	float:left;
-	z-index: 0;
-	clear:both;
+    background-color: white;
+    width:100%;
+    height:85px;
+    float:left;
+    z-index: 0;
+    clear:both;
 }
 
 .topLine{
-	border-width: 2px;
-	border-color: #dddddd;
-	height: 85px;
-	width: 960px;
-	margin: auto;
-	position: relative;
-	z-index: 9000;
+    border-width: 2px;
+    border-color: #dddddd;
+    height: 85px;
+    width: 960px;
+    margin: auto;
+    position: relative;
+    z-index: 9000;
 }
 
 .myName{
-	background: #1c9c96;
-	font-family: 'Georgia', Times, Times New Roman, serif;
-	float:left;
-	color: white;
-	font-weight: bold;
-	font-size: 2em;
-	padding: 28px 20px 27px 20px;
+    background: #1c9c96;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float:left;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 28px 20px 27px 20px;
 }
 
 .about, .portfolio, .contact{
-	text-decoration: none;
-	padding: 33px 10px 32px 10px;
+    text-decoration: none;
+    padding: 33px 10px 32px 10px;
     position: relative;
     float: right;
     color: grey;
     border-top: 3px solid transparent;
     font-size: 1.2em;
+    line-height: 5%;
+    word-spacing: 10%;
 }
 
 /* could use an .about:hover, .portfolio:hover{
@@ -46,122 +48,123 @@
 */
 
 .upperBorder{
-	background: #666666;
-	width:100%;
-	height:1px;
-	float:left;
-	clear:both;
+    background: #666666;
+    width:100%;
+    height:1px;
+    float:left;
+    clear:both;
 }
 
 .theMiddleBar{
-	background-image: url(https://decor.scene7.com/is/image/DecorOnline/panel-track_10433328); /*use this*/
-	background-repeat: repeat;
-	width:100%;
-	height: auto;
-	float:left;
-	padding-bottom: 50px;
-	clear:both;
+    background-image: url(https://decor.scene7.com/is/image/DecorOnline/panel-track_10433328); /*possibly use a more neutral color than current in the future*/
+    background-repeat: repeat;
+    width:100%;
+    height: auto;
+    float:left;
+    padding-bottom: 50px;
+    clear:both;
 }
 
 .container{
-	width:960px;
-	margin: auto;
+    width:960px;
+    margin: auto;
 }
 
-.about-me-box{
-	background: white; 
-	width: 100%;
-	padding: 20px;
-	margin: 0;
-	position: relative;
-	float: left;
-	top: 25px;
+.aboutMeContainer{
+    background: white; 
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    position: relative;
+    float: left;
+    top: 25px;
     z-index: 9000;
     font-size: 18px;
 }
 
-.about-me{
-	color: #1c9c96;
-	padding-bottom: 15px;
-	border-bottom-style: solid;
-	border-color: #666666;
-	border-width: 2px;
-	font-size: 2em;
-	font-weight: bold;
+.aboutMe{
+    color: #1c9c96;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-color: #666666;
+    border-width: 2px;
+    font-size: 2em;
+    font-weight: bold;
 }
 
-.about-me-box p{
-	margin: 20px 0 5px;
+.aboutMeContainer p{
+    margin: 30px 0px 10px 0px;
 }
 
-.profile-pic{
-	width: 200px;
-	height: 200px;
-	float: left;
-	padding-right: 20px;
-	padding-top: 20px;
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	-ms-transition: all 1s ease;
-	transition: all 1s ease;
+.mainPic{
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding-right: 20px;
+    padding-top: 20px;
 }
   
   p{
       font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-      
+      font-style: italic; /* Won't work: probably is being overruled */
+      /* line-height: 5%;
+      word-spacing: 10%; */
   }
 
-  .connect-box{
-	float:right;
-	width:20%;
-	background: white;
-	padding: 20px 20px 30px 20px;
-	position: relative;
-	top: 25px; /*consider changing this to change where logos go*/
+  .socialMediaOutline{
+    float:right;
+    width:20%;
+    background: white;
+    padding: 20px 20px 30px 20px;
+    position: relative;
+    top: 25px; /*consider changing this to change where logos go*/
 }
 
-.connect-header{
-	color: #1c9c96;
-	padding-bottom: 15px;
-	border-bottom-style: solid;
-	border-color: #666666;
-	border-width: 2px;
-	text-align: center;
-	font-size: 1.5em;
-	font-weight: bold;
+.socialMediaOutline2{
+    float: right;
+    width:20%;
+    background: transparent;
+    padding: 20px 20px 30px 20px;
+    position: relative;
+    top: 25px; /*consider changing this to change where logos go*/
 }
 
-.connect-img-box{
-	width: 100%;
-	height: 100%;
-	margin: auto;
+.socialMediaHeader{
+    color: #1c9c96;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-color: #666666;
+    border-width: 2px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.socialMediaBox{
+    width: 100%;
+    height: 100%;
+    margin: auto;
 }
 
 .FBI, .LII, .IGI{
-	width: 33%; /*applies to content*/
+    width: 33%; /*applies to content*/
     float: left;
     margin: 0px -4px; /*look into padding*/
     filter: saturate(3);
 }
 
 /* .FBI img, .LII img, .IGI img{
-	margin-top:5px;
-	padding: 5px;
+    margin-top:5px;
+    padding: 5px;
 } */
 
-.connect-images{
-	width: 50px;
-	height: 50px;
-	position: relative;
-	top: 10px;
-	left: 20px;
-	margin: auto;
-	-webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+.socialMediaImages{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    margin: auto;
 }
 
 /*displays how wide the message box is in contact.html*/
@@ -170,9 +173,9 @@
     height: 50%;
  }  
 
-.submit-button{
+.submitButton{
     cursor: crosshair;
-	background-color: #1c9c96;
+    background-color: #1c9c96;
     color: white;
     padding: 15px 25px;
     text-align: center;
@@ -181,177 +184,126 @@
     border: none;
 }
 
-.portfolio-box{
-	background: white;
-	width: 65%;
-	padding: 20px;
-	margin: 0;
-	position: relative;
-	float: left;
-	top: 25px;
-	z-index: 9000;
-	overflow: auto;
+.portfolioOutline{
+    background: white;
+    width: 65%;
+    padding: 20px;
+    margin: 0;
+    position: relative;
+    float: left;
+    top: 25px;
+    z-index: 9000;
+    overflow: auto;
 }
 
-.portfolio-box h1{
-	color: #1c9c96;
-	padding-bottom: 15px;
-	border-bottom-style: solid;
-	border-color: #666666;
-	border-width: 2px;
-	font-size: 2em;
-	font-weight: bold;
+.portfolioOutline h1{
+    color: #1c9c96;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-color: #666666;
+    border-width: 2px;
+    font-size: 2em;
+    font-weight: bold;
 }
 
-.portfolio-box p{
-	margin: 15px 0 5px;
+.portfolioOutline p{
+    margin: 15px 0 5px;
 }
 
-.portfolio-box img{
-	width: 250px;
-	height: 150px;
+.portfolioOutline img{
+    width: 250px;
+    height: 150px;
 }
 
-.img1, .img3, .img5{
-	position: relative;
-	float: left;
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	-ms-transition: all 1s ease;
-	transition: all 1s ease;
+.img110, .img112, .img114{
+    position: relative;
+    float: left;
 }
 
-.img2, .img4{
-	position: relative;
-	float: right;
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	-ms-transition: all 1s ease;
-	transition: all 1s ease;
+.img111, .img113{
+    position: relative;
+    float: right;
 }
 
 .insideimg1{
-	width: 250px;
-	height: 150px;
-	top:10px;
-	left:25px;
-	float:left;
-	position: relative;
+    width: 250px;
+    height: 150px;
+    top:10px;
+    left:25px;
+    float:left;
+    position: relative;
 }
 
 .insideimg2{
-	width: 250px;
-	height: 150px;
-	top:10px;
-	right:25px;
-	float: right;
-	position: relative;
+    width: 250px;
+    height: 150px;
+    top:10px;
+    right:25px;
+    float: right;
+    position: relative;
 }
 
 .insideimg3{
-	width: 250px;
-	height: 150px;
-	margin-top: 40px;
-	top:10px;
-	left:25px;
-	float:left;
-	position: relative;
+    width: 250px;
+    height: 150px;
+    margin-top: 40px;
+    top:10px;
+    left:25px;
+    float:left;
+    position: relative;
 }
 
 .insideimg4{
-	width: 250px;
-	height: 150px;
-	margin-top: 40px;
-	top:10px;
-	right:25px;
-	float:right;
-	position: relative;
+    width: 250px;
+    height: 150px;
+    margin-top: 40px;
+    top:10px;
+    right:25px;
+    float:right;
+    position: relative;
 }
 
 .insideimg5{
-	width: 250px;
-	height: 150px;
-	margin-top: 40px;
-	top:10px;
-	left:25px;
-	float:left;
-	position: relative;
+    width: 250px;
+    height: 150px;
+    margin-top: 40px;
+    top:10px;
+    left:25px;
+    float:left;
+    position: relative;
 }
 
-.portfolio-p{
-	position: absolute;
-	background: #1c9c96;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	top: 90px;
-	width: 100%;
-	text-align: center;
-	opacity: .75;
+.portfolioImages{
+    position: absolute;
+    background: #1c9c96;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 90px;
+    width: 100%;
+    text-align: center;
+    opacity: .80;
+    color: white;
+    /*font: italic bold;*/
 }
 
-.portfolio-p2{
-	position: absolute;
-	background: #1c9c96;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	top: 90px;
-	width: 100%;
-	text-align: center;
-	opacity: .75;
-}
-
-.portfolio-p3{
-	position: absolute;
-	background: #1c9c96;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	top: 90px;
-	width: 100%;
-	text-align: center;
-	opacity: .75;
-}
-
-.portfolio-p4{
-	position: absolute;
-	background: #1c9c96;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	top: 90px;
-	width: 100%;
-	text-align: center;
-	opacity: .75;
-}
-
-.portfolio-p5{
-	position: absolute;
-	background: #1c9c96;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	top: 90px;
-	width: 100%;
-	text-align: center;
-	opacity: .75;
-}
-
-.img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover{
-    -webkit-filter: brightness(25%);
+.img110:hover, .img111:hover, .img112:hover, .img113:hover, .img114:hover{
+    -webkit-filter: brightness(50%);
+    /*-webkit-transform: scale(1); to zoom in on text for the future */
   }
 
-  .copyright2{
-	background-color: #666666;
-	width:100%;
-	height:50px;
-	float:left;
-	border-top: 10px solid #4aaaa5;
-	clear:both;
+  .copyright1{
+    width: 960px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 17px 0px 17px 0px;
 }
 
-  .copyright1{
-	width: 960px;
-	margin: auto;
-	text-align: center;
-	color: white;
-	padding: 17px 0px 17px 0px;
+.copyright2{
+    background-color: #666666;
+    width:100%;
+    height:50px;
+    float:left;
+    border-top: 10px solid #4aaaa5;
+    clear:both;
 }
