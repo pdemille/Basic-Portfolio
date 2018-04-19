@@ -165,11 +165,11 @@
     top: 10px;
     left: 20px;
     margin: auto;
-    -webkit-transition: all 0.5s ease;
+  /*  -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    transition: all 0.5s ease; */
 }
 
 /*displays how wide the message box is in contact.html*/
@@ -223,21 +223,11 @@
 .img110, .img112, .img114{
     position: relative;
     float: left;
-    -webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	-ms-transition: all 1s ease;
-	transition: all 1s ease;
 }
 
 .img111, .img113{
     position: relative;
     float: right;
-    -webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	-ms-transition: all 1s ease;
-	transition: all 1s ease;
 }
 
 .insideimg1{
