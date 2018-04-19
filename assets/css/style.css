@@ -165,6 +165,11 @@
     top: 10px;
     left: 20px;
     margin: auto;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 /*displays how wide the message box is in contact.html*/
@@ -218,11 +223,21 @@
 .img110, .img112, .img114{
     position: relative;
     float: left;
+    -webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
 }
 
 .img111, .img113{
     position: relative;
     float: right;
+    -webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
 }
 
 .insideimg1{
@@ -289,6 +304,11 @@
 .img110:hover, .img111:hover, .img112:hover, .img113:hover, .img114:hover{
     -webkit-filter: brightness(50%);
     /*-webkit-transform: scale(1); to zoom in on text for the future */
+    -webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
   }
 
   .copyright1{
