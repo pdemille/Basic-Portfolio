@@ -220,7 +220,7 @@
     height: 150px;
 }
 
-.img110, .img112, .img114{
+.img110, .img112, .img115{
     position: relative;
     float: left;
 }
@@ -291,7 +291,7 @@
     /*font: italic bold;*/
 }
 
-.img110:hover, .img111:hover, .img112:hover, .img113:hover, .img114:hover{
+.img110:hover, .img111:hover, .img112:hover, .img113:hover, .img115:hover{
     -webkit-filter: brightness(50%);
     /*-webkit-transform: scale(1); to zoom in on text for the future */
   }
@@ -303,6 +303,11 @@
     color: white;
     padding: 17px 0px 17px 0px;
 }
+
+.copyright1:visited {
+        color: purple;
+      }
+
 
 .copyright2{
     background-color: #666666;
